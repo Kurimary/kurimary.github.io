@@ -1,0 +1,18 @@
+button.language-selection {
+  background-color: white;
+  color: black;
+}
+button.language-selection:hover {
+  background-color: #eee;
+}
+
+@media screen and (max-width: 400px) {
+  button.language-selection {
+    max-width: 36px;
+    max-height: 36px;
+  }
+
+  button.language-selection .mat-icon {
+    font-size: 20px;
+  }
+}
